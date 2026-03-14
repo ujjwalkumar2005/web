@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(86, 167, 239);
+     font-family: "Roboto", sans-serif;
+     display: flex;
+  flex-direction: column;
+  
+  /* 2. Ensure body is at least as tall as the screen */
+  min-height: 100vh; 
+  margin: 0;
+    
+
+    
+}
+
+p{
+    background-color: blueviolet;
+    color: azure;
+    padding: 12px;
+    margin: 24px;
+}
+
+a{
+    font-size: x-large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(123, 3, 79);
+}
+
+article{
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
+    font-size: x-large;
+    margin: 24px;
+}
+section{
+    background-color: rgb(160, 204, 48);
+    color: rgb(0, 0, 0);
+    margin: 24px;
+    text-align: center;
+    font-size: x-large;
+}
+img{
+    width: 30vw;
+   
+    height: 38vh;
+    border: 8px solid orchid;
+    
+}
+
+h2{
+    text-align: center;
+}
+a{
+    margin-left: 45vw;
+    background-color: aquamarine;
+}
+
+.car{
+    background-color: rgb(220, 15, 80);
+    padding: 25px;
+    border-radius: 8px;
+    margin: 8vh 32vw;
+   
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    flex: 1;
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    font-size: x-large;
+    color: azure;
+    background-color: rgb(13, 1, 119);
+    
+    gap: 8vw;
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+
+ul li:hover{
+    color: rgb(238, 87, 238);
+
+}
+
+
+
+footer{
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 11px;
+    text-align: center;
+   
+}
+
+
+@media (min-width: 1936px) and (max-width:300px) {
+    img{
+   object-fit: cover;
+   object-position: center;
+   width: 100%;
+
+    
+}
+   
+}
