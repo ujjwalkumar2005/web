@@ -109,10 +109,9 @@ footer{
    
 }
 
+@media (max-width:700px) and (min-width:200px) {
 
-@media (min-width: 1936px) and (max-width:300px) {
-    img{
-   img {
+    img {
        width: 77vw;
        
        
@@ -124,7 +123,9 @@ footer{
     object-position: center;
     }
 
+
     
+
+
 }
-   
-}
+
