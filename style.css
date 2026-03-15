@@ -112,9 +112,17 @@ footer{
 
 @media (min-width: 1936px) and (max-width:300px) {
     img{
-   object-fit: cover;
-   object-position: center;
-   width: 100%;
+   img {
+       width: 77vw;
+       
+       
+        margin-left: -26vw;
+        height: 41vh;
+    
+    object-fit: cover; 
+   
+    object-position: center;
+    }
 
     
 }
