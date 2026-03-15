@@ -109,7 +109,7 @@ footer{
    
 }
 
-@media (max-width:700px) and (min-width:200px) {
+@media screen and (max-width:700px) and (min-width:200px) {
 
     img {
        width: 77vw;
@@ -123,7 +123,12 @@ footer{
     object-position: center;
     }
 
-
+.car{
+    padding: 3vh 34vw;
+    border-radius: 8px;
+    margin: 3vh 1.5vw;
+    
+}
     
 
 
